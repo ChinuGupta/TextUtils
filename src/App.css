@@ -1,0 +1,165 @@
+/* .App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+} */
+
+nav.navbar {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  /* background-color: rgb(169, 203, 232); */
+  align-items: center;
+}
+.cont {
+  display: inline;
+  margin: 4px;
+}
+.container1 {
+  margin-top: 16px;
+  display: flex;
+  margin-right: 200px;
+}
+
+.container1 ul li {
+  list-style: none;
+  padding-right: 70px;
+}
+
+.cont a,
+.container1 a {
+  text-decoration: none;
+  padding-left: 30px;
+  padding-right: 20px;
+}
+
+.container1 > ul {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.container1 a {
+  display: inline;
+  margin-top: 40px;
+  align-items: center;
+}
+
+.cont a {
+  font-size: 30px;
+  font-family: monospace;
+  color: #14144e;
+}
+
+.container1 a {
+  font-size: 20px;
+  font-family: monospace;
+  color: #14144e;
+}
+
+/* .cont a:hover,.container1 a:hover{
+  color:#4d4d8e;
+  
+} */
+
+/* replace by container class of bootstrap */
+/* .textContainer
+{
+margin-top: 30px;
+display:flex ;
+justify-content:center;
+flex-wrap: wrap;
+margin-left: 230px;
+} */
+
+textarea {
+  padding: 12px 20px;
+  border: 2px solid #282727;
+  border-radius: 4px;
+  background-color: hsl(0, 0%, 100%);
+  font-size: 18px;
+  font-family: "Segoe UI", Tahoma;
+  resize: none;
+}
+.btn {
+  background-color: #4747f7;
+  color: white;
+  margin: 9px;
+}
+/* .detailcontainer 
+{
+width:200px;
+} */
+
+/* Light mode styles */
+.light {
+  background-color: rgba(198, 221, 241, 0.529);
+  color: rgb(38, 19, 19);
+}
+
+/* Dark mode styles */
+.dark {
+  background-color: black;
+  color: white;
+}
+.dark a {
+  color: white;
+}
+
+@media screen and (max-width:740px) {
+  .cont a{
+margin:70px; 
+ }
+
+}
+
+
+.hamburger{
+  margin-left: 100px;
+  width:70px;
+  height:50px;
+  float:left;
+  display:none;
+  @media (max-width: 1006px) {
+    display: inline;
+    float:left;
+  }
+}
+
+
+
+

@@ -1,0 +1,10 @@
+@media only screen and  (max-width:1283) {
+  .navbar {
+      width:100%;
+
+    }
+#my-box{
+    width:50%;
+    background-color: aliceblue;
+}
+}
